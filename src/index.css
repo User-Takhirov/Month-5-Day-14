@@ -1,0 +1,76 @@
+body {
+  font-family: monospace;
+  background-color: rgb(54, 52, 52);
+}
+
+form {
+  text-align: center;
+  margin-top: 50px;
+}
+.input {
+  margin-bottom: 10px;
+}
+input {
+  padding: 10px;
+  border-radius: 5px;
+  outline-color: teal;
+  background-color: teal;
+  color: white;
+  text-transform: capitalize;
+  font-size: 18px;
+  border: none;
+}
+.send {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(28, 158, 71);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+}
+.btnBlock {
+  width: 243px;
+  margin: 0 auto;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+}
+.del {
+  width: 100%;
+  padding: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  width: 243px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.edit {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(160, 160, 16);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  width: 243px;
+  margin: 0 auto;
+}
+.delBtnBlock {
+  display: grid;
+}
+
+
+.block{
+  border: 2px solid blue;
+  margin: 20px auto;
+  width: 400px;
+
+}
