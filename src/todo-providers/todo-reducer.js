@@ -11,7 +11,7 @@ export const TodoReducer = (state, action) => {
       return {
         ...state,
         users: state.users.map((item) =>
-          item.id === action.id ? { ...action.value, ...item } : item
+          item.id === action.id ? { ...item , ...action.value, } : item
         ),
       };
     default:

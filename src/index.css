@@ -38,6 +38,7 @@ input {
   color: white;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 20px;
 }
 .del {
   width: 100%;
@@ -67,10 +68,13 @@ input {
   display: grid;
 }
 
-
-.block{
+.block {
   border: 2px solid blue;
   margin: 20px auto;
   width: 400px;
-
+  padding: 20px;
+}
+*{
+  margin: 0;
+  padding: 0;
 }
